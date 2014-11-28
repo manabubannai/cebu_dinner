@@ -55,6 +55,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
+			// 'host'      => 'localhost',
+			// 'database'  => 'bbc_2ch',
+			// 'username'  => 'root',
+			// 'password'  => 'root',
 			'host'      => getenv('DB_HOST'),
 			'database'  => getenv('DB_NAME'),
 			'username'  => getenv('DB_USERNAME'),
